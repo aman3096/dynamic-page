@@ -1,0 +1,10 @@
+Write a javascript solution in a file names "codebase.js", and place it in the home directory of website.
+And, include "codebase.js" in index.html. The "codebase.js" must do the following, as illustrated in the screenshot named "scr-001.png":
+ 
+1. It must get the first 2 images
+2. In the bottom center of selected images, it must create a div container of width 728px and height 90px
+3. Within, div containers it must create iframes of width 728px and height 90px
+4. Background color of iframes must be red color
+5. Iframes should not have any borders, scrollbars etc.
+6. On resize of responsive images, the div containers must resize, and in turn the iframes too, to match the images dimensions
+7. On clicking on any iframe, it's background color must change to blue
